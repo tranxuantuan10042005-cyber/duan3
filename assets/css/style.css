@@ -631,3 +631,99 @@ a {
   font-size: 1.4rem;
   line-height: 1.86;
 }
+/* --------------login------------ */
+.header-login {
+  background: #10375c;
+  padding: 25px;
+}
+.body-login {
+  background: #eaf6ff;
+}
+.login-body {
+  background: #2e80ce;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.login {
+  width: 500px;
+  height: 500px;
+  background-color: #eaf6ff;
+  display: flex;
+  justify-content: center;
+  border-top: 5px solid #10375c;
+  border-radius: 0 0 20px 20px;
+}
+.login-heading {
+  width: 500px;
+  padding-top: 50px;
+  color: #10375c;
+  font-size: 2.6rem;
+  font-weight: 700;
+  text-align: center;
+  background-color: #eaf6ff;
+  border-radius: 20px 20px 0 0;
+}
+form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-top: 16px;
+}
+
+.form-label,
+.form-input {
+  display: block;
+}
+
+.form-label {
+  font-weight: 600;
+}
+
+.form-input {
+  width: 240px;
+  height: 34px;
+  margin-top: 8px;
+  padding: 4px 8px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+.form-group .btn.btn-login {
+  height: 50px;
+  width: 240px;
+  margin-top: 20px;
+  padding: 10px 28px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  color: #fff;
+  background: #2e80ce;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-group .btn:hover {
+  opacity: 0.9;
+}
+label {
+  user-select: none;
+}
+.checkbox-group label::after,
+.checkbox-group label::before {
+  content: "";
+  display: inline-block;
+}
+.checkbox-group label::before {
+  margin-right: 10px;
+  width: 14px;
+  height: 14px;
+  border: 1px solid red;
+  border-radius: 4px;
+}
+.checkbox-group [type="checkbox"]:checked ~ label::before {
+  background-color: #2e80ce;
+}

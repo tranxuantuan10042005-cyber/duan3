@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- reset.css -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- style.css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>login</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header-login">
+      <div class="container">
+        <!-- thanh menu -->
+        <div class="header-top">
+          <!-- logo -->
+          <a href="./"><img src="./assets/img/logo.svg" alt="shine smile" class="logo" /></a href="!#">
+          <!-- nav -->
+          <nav class="navbar">
+            <ul class="navbar__list">
+              <li class="navbar__item">
+                <a href="./index.html" class="navbar__link navbar__link--active">Home</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#!" class="navbar__link">Services</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#!" class="navbar__link">About</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#!" class="navbar__link">Doctors</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- cta-action -->
+          <div class="header__action">
+            <a href="./login/login.html" class="header__action--login">Log In</a>
+            <a href="#!" class="btn header__action--signup">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- main -->
+     <main class="body-login">
+      <div class="container">
+                <!-- bang login -->
+        <div class="login-body">
+        <div>
+            <h1 class="login-heading">Đăng nhập</h1>
+             <div class="login">
+               <form action="">
+                <div class="form-group">
+                  <label class="form-label"
+                    >Họ và tên
+                    <input class="form-input" type="text" name="name" id="name"
+                  /></label>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="email">Email</label>
+                  <input
+                    class="form-input"
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                  />
+                </div>
+                <br />
+    
+                <div class="form-group">
+                  <label class="form-label" for="password">Password</label>
+                  <input
+                    class="form-input"
+                    type="password"
+                    id="password"
+                    name="password"
+                    required
+                  />
+                </div>
+                <br />
+    
+                <div class="form-group">
+                  <div class="checkbox-group">
+                    <input type="checkbox" name="remember" id="remember" hidden />
+                    <label for="remember">Remember</label>
+                  </div>
+                </div>
+    
+                <div class="form-group">
+                  <button class="btn btn-login" type="submit">Đăng nhâp</button>
+                </div>
+              </form>
+             </div>
+        </div>
+        </div>
+      </div>
+     </main>
+  </body>
+</html>
